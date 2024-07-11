@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Coca Cola",
+      "proteins": 5,
+      "carbs": 2,
+      "fats": 7
+    },
+    {
+      "id": 2,
+      "name": "Milk",
+      "proteins": 2,
+      "carbs": 5,
+      "fats": 4
+    }
+  ]
+}
