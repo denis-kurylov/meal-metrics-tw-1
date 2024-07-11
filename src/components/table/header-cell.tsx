@@ -5,5 +5,5 @@ type HeaderCellProps = PropsWithChildren
 export const HeaderCell: FC<HeaderCellProps> = (props) => {
   const { children } = props
 
-  return <th>{children}</th>
+  return <th className='text-sm text-slate-700'>{children}</th>
 }

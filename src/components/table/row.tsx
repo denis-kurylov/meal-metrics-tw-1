@@ -5,5 +5,5 @@ type RowProps = PropsWithChildren
 export const Row: FC<RowProps> = (props) => {
   const { children } = props
 
-  return <tr>{children}</tr>
+  return <tr className='border-b border-slate-200'>{children}</tr>
 }
