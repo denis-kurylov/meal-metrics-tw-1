@@ -1,7 +1,7 @@
 export const enum Routes {
   ROOT = '/',
   PROFILE = '/profile',
-  PRODUCTS = '/products',
+  PRODUCT_LIST = '/products',
   PLAN_LIST = '/plans',
   PLAN_DETAILS = '/plans/:id',
   NOT_FOUND = '/*',
