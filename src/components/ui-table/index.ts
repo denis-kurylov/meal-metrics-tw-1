@@ -6,7 +6,7 @@ import { HeaderCell } from './header-cell'
 import { Row } from './row'
 import { TableComponent } from './table-component'
 
-export const Table = Object.assign(TableComponent, {
+export const UiTable = Object.assign(TableComponent, {
   Body,
   DataCell,
   Footer,
