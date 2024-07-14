@@ -14,7 +14,18 @@ const productsApi = api.injectEndpoints({
             ]
           : [{ type: 'Products', id: 'LIST' }],
     }),
+    updateProduct: builder.mutation<
+      void,
+      { id: string; changes: Partial<IProduct> }
+    >({
+      query: ({ id, changes }) => ({
+        url: `products/${id}`,
+        method: 'PATCH',
+        body: changes,
+      }),
+      invalidatesTags: [{ type: 'Products', id: 'LIST' }],
+    }),
   }),
 })
 
-export const { useGetProductsQuery } = productsApi
+export const { useGetProductsQuery, useUpdateProductMutation } = productsApi

@@ -2,6 +2,7 @@ import { createBrowserRouter, Navigate } from 'react-router-dom'
 
 import { Routes } from './constants/routes'
 import { MainLayout } from './layouts/main'
+import { ProductsPage } from './pages/products'
 
 export const router = createBrowserRouter([
   {
@@ -18,7 +19,7 @@ export const router = createBrowserRouter([
       },
       {
         path: Routes.PRODUCT_LIST,
-        element: <div>Products</div>,
+        element: <ProductsPage />,
       },
       {
         path: Routes.PLAN_LIST,
