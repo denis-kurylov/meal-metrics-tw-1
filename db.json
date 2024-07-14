@@ -1,18 +1,21 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Coca Cola",
+      "id": "1",
+      "name": "coca caca",
       "proteins": 5,
-      "carbs": 2,
-      "fats": 7
+      "carbs": 26,
+      "fats": 7,
+      "changes": {
+        "proteins": 555
+      }
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Milk",
       "proteins": 2,
       "carbs": 5,
-      "fats": 4
+      "fats": 43
     }
   ]
 }
